@@ -1,3 +1,4 @@
+#For generate next prime, can use +=2 to double the speed.
 from math import sqrt
 '''
 def prime(n):
