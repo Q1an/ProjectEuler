@@ -26,12 +26,12 @@ def isprime(ans,n):
     return True
 def getnextprime(ans,n):
     while(not isprime(ans,n)):
-        n +=1
+        n += 2
     return (ans+[n],n)
-plst = []
+plst = [2]
 a = 1
 while(n!=1):
-    plst, a = getnextprime(plst,a+1)
+    plst, a = getnextprime(plst,a+2)
     while n%a==0:
         n /= a
 print a
