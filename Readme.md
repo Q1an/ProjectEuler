@@ -1,6 +1,1 @@
-#Head
-##Another head
-###ANdaz
-####SD
-#####New begin
-‘’‘
+###Manacher's Algorithm
