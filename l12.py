@@ -9,4 +9,4 @@ class Solution(object):
 					rt += e[i]
 					num -= i
 		return rt
-print Solution().intToRoman(20)
+print Solution().intToRoman(499)
