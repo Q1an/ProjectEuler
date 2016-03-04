@@ -27,4 +27,3 @@ class Solution(object):
         	current.next=l2
         return d.next
 
-
